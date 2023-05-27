@@ -23,4 +23,5 @@ document.querySelector("#app").innerHTML = `
 
 setupCounter(document.querySelector("#counter"));
 
+console.log(`Server is running in ${import.meta.env.MODE} mode`);
 console.log(import.meta.env);
